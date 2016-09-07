@@ -1,0 +1,515 @@
+{
+  "name": "Microservices",
+  "description": "Microservices Registered With Eureka",
+  "version": "0,1",
+  "author": "vijayeswari",
+  "nodes": [
+    {
+      "name": "Microservices",
+      "type": "hub",
+      "category": "hub",
+      "group": 0,
+      "x": 100,
+      "y": 100,
+      "size": 60,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "IT Database",
+      "type": "hub",
+      "category": "hub",
+      "group": 2,
+      "x": 600,
+      "y": 600,
+      "size": 60,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Platform",
+      "type": "hub",
+      "category": "hub",
+      "group": 3,
+      "x": 900,
+      "y": 900,
+      "size": 60,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Agreements Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "ssz": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Bookmarks Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Channels Controllers",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Channel Lineup",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Device Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DVR Recordings",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cache",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": "/cache/platformInfo/clear"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Guide MetaData",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Login Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "LRM Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Network Settings Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Rentals Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Session Info",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Recommendations",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "AV lineup",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Viewing History Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "WatchList Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Weather Edge",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DataMart AccountInfo",
+      "type": "node",
+      "category": "IT",
+      "group": 2,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DataMart Video Entitlements",
+      "type": "node",
+      "category": "IT",
+      "group": 2,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DataMart VOD Entitlements",
+      "type": "node",
+      "category": "IT",
+      "group": 2,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DataMart Account Services",
+      "type": "node",
+      "category": "IT",
+      "group": 2,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "OSSAPI Info",
+      "type": "node",
+      "category": "IT",
+      "group": 2,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Platform API",
+      "type": "node",
+      "category": "Platform",
+      "group": 3,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DVR Recordings Schedules",
+      "type": "node",
+      "category": "Microservice",
+      "group": 1,
+      "size": 10,
+      "properties": [
+        {
+          "endpoint": ""
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "links": [
+    {
+      "source": 3,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 22,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 0,
+      "value": 100
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "value": 100
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "value": 100
+    }
+  ]
+}

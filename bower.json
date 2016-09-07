@@ -1,0 +1,31 @@
+{
+  "name": "D3App",
+  "description": "D3 App",
+  "main": "index.html",
+  "authors": [
+    "vijayeswari"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "D3App"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angular-resource": "^1.5.7",
+    "angular-touch": "^1.5.7",
+    "angular-block-ui": "^0.2.2",
+    "jquery": "1.11.1",
+    "d3": "3.5.17",
+    "jquery-ui": "1.10.4"
+  }
+}
